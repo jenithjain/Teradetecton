@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.python-version
+env/
+venv/
+ENV/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PIP
+pip-log.txt
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and large images - ignore original Onera dataset images and pairs
+"Onera Satellite Change Detection dataset - Images"/
+"Onera Satellite Change Detection dataset - Test Labels"/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets
+.env
+
+# Model and cache
+*.h5
+*.pt
+*.pth
+__pycache__/
+
+# Temporary
+tmp/
+*.tmp
+
+# Ignore any large image files anywhere
+*.tif
+*.tiff
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.npy
+*.npz
+
+# Keep dataset lists and readmes tracked (uncomment if you'd like to ignore these too)
+# *.txt
+# *.geojson
